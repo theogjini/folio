@@ -13,6 +13,14 @@ export default function uiReducer(state, action) {
       state.UI.locale = "fr";
       break;
     }
+    case "TOGGLE_THEME_TO_DARK": {
+      state.UI.theme = "dark";
+      break;
+    }
+    case "TOGGLE_THEME_TO_LIGHT": {
+      state.UI.theme = "light";
+      break;
+    }
     default: {
       return state;
     }

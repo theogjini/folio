@@ -1,0 +1,16 @@
+{
+  "fr": {
+    "general": {
+      "title": "Bonjour Monde!"
+    },
+    "about": {},
+    "projects": {}
+  },
+  "eng": {
+    "general": {
+      "title": "Hello World!"
+    },
+    "about": {},
+    "projects": {}
+  }
+}
