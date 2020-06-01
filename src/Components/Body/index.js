@@ -9,5 +9,9 @@ export default function Body(props) {
     return state.content[locale].general.title;
   });
 
-  return <Wrapper>{title}</Wrapper>;
+  return (
+    <Wrapper>
+      <h1>{title}</h1>
+    </Wrapper>
+  );
 }

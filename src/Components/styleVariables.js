@@ -4,11 +4,12 @@ const colors = {
   middleGreen: "#00A896",
   green: "#02C39A",
   cream: "#F0F3BD",
+  lightCream: "#fffffc",
   lemon: "#98ce00",
 };
 
 const darkColors = {
-  deepBlue: "#032e3f",
+  deepBlue: "#021e29",
 };
 
 export { colors, darkColors };

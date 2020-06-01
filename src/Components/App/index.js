@@ -1,5 +1,5 @@
 import React from "react";
-import { Wrapper } from "./style.js";
+import { Wrapper, Narrow } from "./style.js";
 import { useSelector } from "react-redux";
 import Header from "../Header";
 import Body from "../Body";
@@ -10,9 +10,11 @@ export default function App() {
 
   return (
     <Wrapper darkMode={isDarkMode}>
-      <Header />
-      <Body />
-      <Footer />
+      <Narrow>
+        <Header />
+        <Body />
+        <Footer />
+      </Narrow>
     </Wrapper>
   );
 }
