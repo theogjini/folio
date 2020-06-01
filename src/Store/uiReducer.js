@@ -1,28 +1,34 @@
-import { initialState } from "./initialState";
+const initialState = {
+  locale: "fr",
+  darkMode: false,
+};
 
 export default function uiReducer(state, action) {
   if (state === undefined) {
     return initialState;
   }
+
+  console.log(state);
+
   switch (action.type) {
     case "CHANGE_LOCALE_TO_ENG": {
-      state.UI.locale = "eng";
+      state.locale = "eng";
       break;
     }
+
     case "CHANGE_LOCALE_TO_FR": {
-      state.UI.locale = "fr";
+      state.locale = "fr";
       break;
     }
-    case "TOGGLE_THEME_TO_DARK": {
-      state.UI.theme = "dark";
+
+    case "TOGGLE_THEME": {
+      state.darkMode = !state.darkMode;
       break;
     }
-    case "TOGGLE_THEME_TO_LIGHT": {
-      state.UI.theme = "light";
-      break;
-    }
+
     default: {
       return state;
     }
   }
+  return state;
 }

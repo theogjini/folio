@@ -1,9 +1,9 @@
 import { combineReducers, createStore } from "redux";
 import uiReducer from "./uiReducer";
-import { initialState } from "./initialState";
+import contentReducer from "./contentReducer";
 
-const reducers = combineReducers({ UI: uiReducer });
+const reducers = combineReducers({ UI: uiReducer, content: contentReducer });
 
-const store = createStore(reducers, initialState);
+const store = createStore(reducers, {});
 
 export default store;
