@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { colors } from "../../styleVariables.js";
+import { colors, darkColors } from "../../styleVariables.js";
 
 const Wrapper = styled.div`
   padding: 20px 0 20px 0;
@@ -8,11 +8,16 @@ const Wrapper = styled.div`
   align-items: center;
 `;
 
-const Title = styled.h2`
+const Title = styled.h3`
   margin: 0;
-  color: ${colors.lemon};
+  color: ${(props) => (props.darkMode ? colors.lemon : darkColors.deepBlue)};
   transition: 1.5s ease-in-out;
+  background-color: transparent;
   cursor: pointer;
+  text-shadow: ${(props) =>
+    props.darkMode === true
+      ? `0px 0px ${props.value}px rgba(152, 206, 0, 1)`
+      : "none"};
 `;
 
 const Menu = styled.div`
@@ -32,17 +37,39 @@ const MenuElement = styled.h4`
     props.active === true ? colors.blueGreen : colors.middleGreen};
   :after {
     position: absolute;
-    bottom: -5px;
-    height: 2px;
-    width: 0%;
+    bottom: 0;
+    height: ${(props) => (props.active === true ? "100%" : "0%")};
+    width: 3px;
     content: "";
-    left: 0;
+    left: -5px;
     background-color: #98ce00;
     transition: 0.2s ease-in;
   }
 
   :hover:after {
-    width: 100%;
+    height: 100%;
+  }
+`;
+
+const Button = styled.div`
+  position: relative;
+  color: ${(props) => (props.active === true ? colors.blueGreen : "#0280904a")};
+  opacity: ${(props) =>
+    props.active === true ? colors.blueGreen : colors.middleGreen};
+  cursor: pointer;
+  padding-right: 20px;
+  :after {
+    position: absolute;
+    bottom: 0;
+    height: ${(props) => (props.active === true ? "100%" : "0%")};
+    width: 3px;
+    content: "";
+    left: -5px;
+    background-color: #98ce00;
+    transition: 0.2s ease-in;
+  }
+  :hover:after {
+    height: 100%;
   }
 `;
 
@@ -51,4 +78,9 @@ const LeftSide = styled.div`
   align-items: center;
 `;
 
-export { Wrapper, Title, Menu, LeftSide, MenuElement };
+const RightSide = styled.div`
+  display: flex;
+  align-items: center;
+`;
+
+export { Wrapper, Title, Menu, LeftSide, MenuElement, RightSide, Button };

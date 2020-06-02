@@ -1,8 +1,17 @@
 import React, { useState } from "react";
-import { Wrapper, Title, Menu, LeftSide, MenuElement } from "./style.js";
+import {
+  Wrapper,
+  Title,
+  Menu,
+  LeftSide,
+  MenuElement,
+  RightSide,
+  Button,
+} from "./style.js";
 import { useDispatch, useSelector } from "react-redux";
 import { useHistory } from "react-router-dom";
 import Toggle from "./Toggle";
+import useInterval from "use-interval";
 
 export default function Navbar(props) {
   const dispatch = useDispatch();
@@ -10,7 +19,16 @@ export default function Navbar(props) {
   const isDarkMode = useSelector((state) => state.UI.darkMode);
   const history = useHistory();
 
-  const [selected, setSelected] = useState("Home");
+  const initialPath = history.location.pathname.split("/")[1];
+
+  const [path, setPath] = useState(initialPath);
+  const [value, setValue] = useState();
+  const shadowValue = () => {
+    const values = [15, 4, 25];
+    const random = Math.floor(Math.random() * values.length);
+    setValue(values[random]);
+  };
+  useInterval(shadowValue, 1500);
 
   const menu = useSelector((state) => {
     return state.content[locale].general.menu;
@@ -35,31 +53,31 @@ export default function Navbar(props) {
     event.preventDefault();
     if (item === "Moi" || item === "Me") {
       history.push("/me");
-      setSelected("me");
+      setPath("me");
     }
     if (item === "Projects" || item === "Projets") {
       history.push("/projects");
-      setSelected("projects");
+      setPath("projects");
     }
   }
 
   function handleGoHome(event) {
     event.preventDefault();
     history.push("/");
-    setSelected("home");
+    setPath("home");
   }
 
   return (
     <Wrapper darkMode={isDarkMode}>
       <LeftSide>
-        <Title darkMode={isDarkMode} onClick={handleGoHome}>
-          Théo Gjini
+        <Title darkMode={isDarkMode} onClick={handleGoHome} value={value}>
+          THEO GJINI
         </Title>
         <Menu>
           {menu.map((item) => {
             const matchingRoute =
               item === "Moi" || item === "Me" ? "me" : "projects";
-            const active = matchingRoute === selected;
+            const active = matchingRoute === path;
             return (
               <MenuElement
                 key={item}
@@ -72,11 +90,15 @@ export default function Navbar(props) {
           })}
         </Menu>
       </LeftSide>
-      <div>
-        <button onClick={handleChangeLocaleEn}>En</button>
-        <button onClick={handleChangeLocaleFr}>Fr</button>
+      <RightSide>
+        <Button onClick={handleChangeLocaleEn} active={locale === "en"}>
+          En
+        </Button>
+        <Button onClick={handleChangeLocaleFr} active={locale === "fr"}>
+          Fr
+        </Button>
         <Toggle onClick={handleToggleTheme}>Switch</Toggle>
-      </div>
+      </RightSide>
     </Wrapper>
   );
 }

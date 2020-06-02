@@ -12,7 +12,7 @@ export default function uiReducer(state, action) {
 
   switch (action.type) {
     case "CHANGE_LOCALE_TO_ENG": {
-      state.locale = "eng";
+      state.locale = "en";
       break;
     }
 

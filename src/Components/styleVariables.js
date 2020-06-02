@@ -3,9 +3,11 @@ const colors = {
   blueGreen: "#028090",
   middleGreen: "#00A896",
   green: "#02C39A",
-  cream: "#F0F3BD",
+  cream: "#fffffc",
   lightCream: "#fffffc",
   lemon: "#98ce00",
+  yellow: "#FFBA08",
+  cherry: "#FF4B3E",
 };
 
 const darkColors = {
