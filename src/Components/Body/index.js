@@ -1,17 +1,5 @@
-import React from "react";
-import { useSelector } from "react-redux";
-import { Wrapper } from "./style.js";
+import Projects from "./Projects";
+import Home from "./Home";
+import Me from "./Me";
 
-export default function Body(props) {
-  const locale = useSelector((state) => state.UI.locale);
-  const title = useSelector((state) => {
-    console.log(state.content[locale].general.title);
-    return state.content[locale].general.title;
-  });
-
-  return (
-    <Wrapper>
-      <h1>{title}</h1>
-    </Wrapper>
-  );
-}
+export { Projects, Home, Me };

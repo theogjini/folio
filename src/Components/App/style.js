@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-import { colors, darkColors } from "../styleVariables.js";
+import { darkColors } from "../styleVariables.js";
 
 const Wrapper = styled.div`
   margin: 0;
@@ -10,9 +10,9 @@ const Wrapper = styled.div`
   width: 100%;
   height: 100vh;
   color: ${(props) =>
-    props.darkMode === false ? darkColors.deepBlue : colors.lightCream};
+    props.darkMode === false ? darkColors.deepBlue : "white"};
   background-color: ${(props) =>
-    props.darkMode === false ? colors.lightCream : darkColors.deepBlue};
+    props.darkMode === false ? "white" : darkColors.deepBlue};
   transition: 1.5s ease-in-out;
 `;
 

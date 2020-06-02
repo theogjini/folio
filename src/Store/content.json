@@ -2,17 +2,17 @@
   "fr": {
     "general": {
       "title": "Bonjour Monde!",
-      "menu": ["Projets", "À propos de moi"]
+      "menu": ["Projets", "Moi"]
     },
     "about": {},
-    "projects": {}
+    "projects": []
   },
   "eng": {
     "general": {
       "title": "Hello World!",
-      "menu": ["Projects", "About me"]
+      "menu": ["Projects", "Me"]
     },
     "about": {},
-    "projects": {}
+    "projects": []
   }
 }

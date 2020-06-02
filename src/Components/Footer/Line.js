@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function LineUp() {
+export default function Line() {
   return (
     <svg
       width="1180"
@@ -10,7 +10,7 @@ export default function LineUp() {
       xmlns="http://www.w3.org/2000/svg"
     >
       <path
-        d="M1699.78 6.69092C1022.08 137.717 650.309 137.923 2.09857 4.99997"
+        d="M1699.78 103.992C1022.08 -27.034 650.309 -27.24 2.09857 105.683"
         stroke="#05668D"
         stroke-width="10"
       />

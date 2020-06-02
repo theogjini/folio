@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { colors, darkColors } from "../../styleVariables.js";
+import { colors } from "../../styleVariables.js";
 
 const Wrapper = styled.div`
   padding: 20px 0 20px 0;
@@ -10,9 +10,9 @@ const Wrapper = styled.div`
 
 const Title = styled.h2`
   margin: 0;
-  color: ${(props) =>
-    props.darkMode === true ? colors.lemon : darkColors.deepBlue};
+  color: ${colors.lemon};
   transition: 1.5s ease-in-out;
+  cursor: pointer;
 `;
 
 const Menu = styled.div`
