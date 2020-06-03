@@ -42,8 +42,8 @@ export default function Fisher() {
         fill="#F704DE"
       />
       <path
-        fill-rule="evenodd"
-        clip-rule="evenodd"
+        fillRule="evenodd"
+        clipRule="evenodd"
         d="M222.899 350.015L220.29 346.882C221.276 346.369 222.145 345.679 222.877 344.826L224.711 348.757L222.899 350.015ZM215.544 330.058L0.999998 1.42873L1.86519 1.42493L215.544 330.058Z"
         fill="#028090"
       />
@@ -54,7 +54,7 @@ export default function Fisher() {
       <path
         d="M555.139 98.2379C142.926 -116.278 373.658 198.629 1.13919 2.23792"
         stroke="#98CE00"
-        stroke-width="2"
+        strokeWidth="2"
       />
     </svg>
   );

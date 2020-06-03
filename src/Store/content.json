@@ -9,34 +9,39 @@
       {
         "title": "Liane",
         "date": 2020,
-        "stack": "MongoDB NodeJS ReactJS Redux",
+        "techs": "MongoDB NodeJS ReactJS Redux",
+        "specs": "GoogleAPI WebSocket",
+        "usecase": "Vous êtes un singe et vous cherchez à partager cvos trajets quotidiens. Sur... des lianes!!! Trouvez, communiquer et naviguez avec eux dans une seule app!",
         "description": "Cette application est le prototype d'un projet de plateforme de covoiturage en milieu rural. Elle sera implémentée en France pour commencer. Serveur en C# .Net et Front-End en react Native. Actuellement en cours!",
         "lien": "https://youtu.be/HUfHxE6-6Vo",
-        "images": []
+        "illus": "Liane"
       },
       {
         "title": "Calendrier Entrepreunariat Laval",
         "date": 2020,
-        "stack": "MongoDB NodeJS ReactJS Redux",
+        "techs": "Laravel ReactJS Redux",
+        "usecase": "bobby bobby bibo ",
         "description": "Cette application est le prototype d'un projet de plateforme de covoiturage en milieu rural. Elle sera implémentée en France pour commencer. Serveur en C# .Net et Front-End en react Native. Actuellement en cours!",
         "lien": "https://youtu.be/HUfHxE6-6Vo",
-        "images": []
+        "illus": "Entrepreunariat"
       },
       {
-        "title": "Liane",
+        "title": "Le moulin de Cénaret",
         "date": 2020,
-        "stack": "MongoDB NodeJS ReactJS Redux",
+        "techs": "MongoDB NodeJS ReactJS Redux",
+        "usecase": "Vous êtes un singe et vous cherchez à partager cvos trajets quotidiens. Sur... des lianes!!! Trouvez, communiquer et naviguez avec eux dans une seule app!",
         "description": "Cette application est le prototype d'un projet de plateforme de covoiturage en milieu rural. Elle sera implémentée en France pour commencer. Serveur en C# .Net et Front-End en react Native. Actuellement en cours!",
         "lien": "https://youtu.be/HUfHxE6-6Vo",
-        "images": []
+        "illus": "Moulin"
       },
       {
-        "title": "Calendrier Entrepreunariat Laval",
+        "title": "Guithub",
         "date": 2020,
-        "stack": "MongoDB NodeJS ReactJS Redux",
+        "techs": "MongoDB NodeJS ReactJS Redux",
+        "usecase": "Vous êtes un singe et vous cherchez à partager cvos trajets quotidiens. Sur... des lianes!!! Trouvez, communiquer et naviguez avec eux dans une seule app!",
         "description": "Cette application est le prototype d'un projet de plateforme de covoiturage en milieu rural. Elle sera implémentée en France pour commencer. Serveur en C# .Net et Front-End en react Native. Actuellement en cours!",
         "lien": "https://youtu.be/HUfHxE6-6Vo",
-        "images": []
+        "illus": "Guithub"
       }
     ]
   },
@@ -50,34 +55,34 @@
       {
         "title": "Liane",
         "date": 2020,
-        "stack": "MongoDB NodeJS ReactJS Redux",
+        "techs": "MongoDB NodeJS ReactJS Redux",
         "description": "This application is the prototype of a carpooling platform specialized in rural environment. It will be implemented in France next fall. V0 currently in processing with C# .Net backend and React Native.",
         "lien": "https://youtu.be/HUfHxE6-6Vo",
-        "images": []
+        "illus": "public/images/"
       },
       {
         "title": "Calendrier Entrepreunariat Laval",
         "date": 2020,
-        "stack": "MongoDB NodeJS ReactJS Redux",
+        "techs": "MongoDB NodeJS ReactJS Redux",
         "description": "This application is the prototype of a carpooling platform specialized in rural environment. It will be implemented in France next fall. V0 currently in processing with C# .Net backend and React Native.",
         "lien": "https://youtu.be/HUfHxE6-6Vo",
-        "images": []
+        "illus": "Entrepreunariat"
       },
       {
-        "title": "Liane",
+        "title": "Le moulin de Cénaret",
         "date": 2020,
-        "stack": "MongoDB NodeJS ReactJS Redux",
+        "techs": "MongoDB NodeJS ReactJS Redux",
         "description": "This application is the prototype of a carpooling platform specialized in rural environment. It will be implemented in France next fall. V0 currently in processing with C# .Net backend and React Native.",
         "lien": "https://youtu.be/HUfHxE6-6Vo",
-        "images": []
+        "illus": "Moulin"
       },
       {
-        "title": "Calendrier Entrepreunariat Laval",
+        "title": "Guithub",
         "date": 2020,
-        "stack": "MongoDB NodeJS ReactJS Redux",
+        "techs": "MongoDB NodeJS ReactJS Redux",
         "description": "This application is the prototype of a carpooling platform specialized in rural environment. It will be implemented in France next fall. V0 currently in processing with C# .Net backend and React Native.",
         "lien": "https://youtu.be/HUfHxE6-6Vo",
-        "images": []
+        "illus": "Guithub"
       }
     ]
   }

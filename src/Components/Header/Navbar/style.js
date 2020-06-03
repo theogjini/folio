@@ -35,6 +35,7 @@ const MenuElement = styled.h4`
 
   opacity: ${(props) =>
     props.active === true ? colors.blueGreen : colors.middleGreen};
+
   :after {
     position: absolute;
     bottom: 0;
@@ -42,12 +43,13 @@ const MenuElement = styled.h4`
     width: 3px;
     content: "";
     left: -5px;
-    background-color: #98ce00;
-    transition: 0.2s ease-in;
+    background-color: ${colors.lemon};
   }
 
   :hover:after {
     height: 100%;
+    background-color: ${(props) =>
+      props.active === true ? colors.lemon : colors.yellow};
   }
 `;
 
@@ -58,6 +60,7 @@ const Button = styled.div`
     props.active === true ? colors.blueGreen : colors.middleGreen};
   cursor: pointer;
   padding-right: 20px;
+
   :after {
     position: absolute;
     bottom: 0;
@@ -66,10 +69,12 @@ const Button = styled.div`
     content: "";
     left: -5px;
     background-color: #98ce00;
-    transition: 0.2s ease-in;
   }
+
   :hover:after {
     height: 100%;
+    background-color: ${(props) =>
+      props.active === true ? colors.lemon : colors.yellow};
   }
 `;
 

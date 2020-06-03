@@ -26,8 +26,8 @@ export default function Mtl() {
           y2="310"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FFA133" />
-          <stop offset="1" stop-color="white" stop-opacity="0" />
+          <stop stopColor="#FFA133" />
+          <stop offset="1" stopColor="white" stopOpacity="0" />
         </linearGradient>
       </defs>
     </svg>
