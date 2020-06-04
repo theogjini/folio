@@ -3,7 +3,10 @@ import { colors, darkColors } from "../../../styleVariables.js";
 
 const Wrapper = styled.div`
   font-size: 1rem;
-  text-align: ${(props) => (props.even === true ? "left" : "right")};
+  text-align: center;
+  @media screen and (min-width: 900px) {
+    text-align: ${(props) => (props.even === true ? "left" : "right")};
+  }
 `;
 
 const Plus = styled.div`
@@ -71,47 +74,100 @@ const Details = styled.div`
   overflow: hidden;
   transition: 0.4s ease-in-out;
   height: ${(props) => (props.open === true ? "500px" : "0")};
-  flex-wrap: ${(props) => (props.even === false ? "wrap-reverse" : "wrap")};
+  margin-bottom: 25px;
+  @media screen and (min-width: 900px) {
+    height: ${(props) => (props.open === true ? "500px" : "0")};
+  }
 
   p {
     display: inline-block;
     font-family: "Roboto", sans-serif;
     font-size: 1.115rem;
+    text-align: left;
     font-weight: 400;
-    margin: 0 0 0 0;
-    max-width: 50%;
+    margin: auto;
+    max-width: 80%;
     color: ${(props) => (props.even === true ? colors.cherry : colors.yellow)};
+    @media screen and (min-width: 900px) {
+      margin: 0 0 0 0;
+      max-width: 50%;
+    }
   }
 
   img {
-    position: absolute;
-    right: ${(props) => (props.even === false ? "none" : 0)};
-    left: ${(props) => (props.even === true ? "none" : 0)};
+    position: relative;
+    top: 0;
     margin-right: 30px;
     margin-left: 30px;
     display: inline-block;
-    height: 200px;
-    max-width: 50%;
-    object-fit: contain;
+    max-width: 60%;
+    object-fit: cover;
+    @media screen and (min-width: 900px) {
+      max-width: 90%;
+      position: absolute;
+      right: ${(props) => (props.even === false ? "none" : 0)};
+      left: ${(props) => (props.even === true ? "none" : 0)};
+      top: 0;
+    }
   }
-`;
-
-const UseCase = styled.div`
-  text-align: ${(props) => (props.even === false ? "right" : "left")};
-  font-style: italic;
-  font-weight: 400;
-  color: ${colors.middleGreen};
-  max-width: 50%;
 `;
 
 const Section = styled.section`
   display: flex;
-  justify-content: ${(props) =>
-    props.even === false ? "flex-start" : "flex-end"};
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+
+  @media screen and (min-width: 900px) {
+    display: flex;
+    text-align: ${(props) => (props.even === true ? "left" : "right")};
+    justify-content: ${(props) =>
+      props.even === true ? "flex-start" : "flex-end"};
+  }
+  article {
+    max-width: 80%;
+
+    @media screen and (min-width: 900px) {
+      max-width: 50%;
+    }
+  }
+`;
+
+const UseCase = styled.div`
+  display: block;
+  text-align: left;
+  font-style: italic;
+  font-weight: 400;
+  min-width: 100%;
+  color: ${colors.middleGreen};
 `;
 
 const TableSpec = styled.div`
-  max-width: 50%;
+  h3 {
+    color: ${(props) => (props.even === true ? colors.cherry : colors.yellow)};
+    text-align: left;
+  }
+
+  ul {
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin-bottom: 20px;
+
+    li {
+      color: ${(props) =>
+        props.even === true ? colors.cherry : colors.yellow};
+      text-align: left;
+      margin-top: 5px;
+      width: 160px;
+      img {
+        position: relative;
+        height: 12px;
+        margin: 0 10px;
+      }
+    }
+  }
 `;
 
 export { Wrapper, Plus, Details, UseCase, TableSpec, Section };

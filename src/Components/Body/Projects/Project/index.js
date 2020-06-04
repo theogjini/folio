@@ -10,8 +10,10 @@ import {
 import { useSelector } from "react-redux";
 import Liane from "./images/Liane.png";
 import Entrepreunariat from "./images/lvl.png";
-import Moulin from "./images/mtl.svg";
-import Guithub from "./images/fisher.svg";
+import Moulin from "./images/lmdc.png";
+import Guithub from "./images/guithub.jpg";
+import Arrow from "./images/arrow.svg";
+import Dave from "./images/dave.jpg";
 
 export default function Project(props) {
   const darkMode = useSelector((state) => state.UI.darkMode);
@@ -26,12 +28,14 @@ export default function Project(props) {
     illus,
     usecase,
     specs,
-    techs,
+    // lien,
+    // repo,
+    // responsive,
   } = props;
 
   const even = idx % 2 === 0;
 
-  const images = { Liane, Entrepreunariat, Moulin, Guithub };
+  const images = { Liane, Entrepreunariat, Moulin, Guithub, Dave };
 
   function handleOpenDetails(event, idx) {
     event.preventDefault();
@@ -48,31 +52,28 @@ export default function Project(props) {
         "{title}"<span>{date}</span>
       </Plus>
       <Details open={open} even={even}>
-        <Section>
-          <div>
+        <img src={images[illus]} alt={title} />
+        <Section even={even}>
+          <article>
             <UseCase even={even}>{usecase}</UseCase>
-            <TableSpec>
+            <TableSpec even={even}>
               {specs && (
-                <ul>
-                  {specs.split(" ").map((spec) => (
-                    <li>{spec}</li>
-                  ))}
-                </ul>
-              )}
-              {techs && (
-                <ul>
-                  {techs.split(" ").map((tech) => (
-                    <li>{tech}</li>
-                  ))}
-                </ul>
+                <div>
+                  <h3>Technologies</h3>
+                  <ul>
+                    {specs.split(" ").map((spec) => (
+                      <li>
+                        <img src={Arrow} alt="arrow" />
+                        {spec}
+                      </li>
+                    ))}
+                  </ul>
+                </div>
               )}
             </TableSpec>
-          </div>
+          </article>
         </Section>
-        <img src={images[illus]} alt={title} />
-        <div>
-          <p>{description}</p>
-        </div>
+        <p>{description}</p>
       </Details>
     </Wrapper>
   );

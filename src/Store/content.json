@@ -9,39 +9,49 @@
       {
         "title": "Liane",
         "date": 2020,
-        "techs": "MongoDB NodeJS ReactJS Redux",
-        "specs": "GoogleAPI WebSocket",
-        "usecase": "Vous êtes un singe et vous cherchez à partager cvos trajets quotidiens. Sur... des lianes!!! Trouvez, communiquer et naviguez avec eux dans une seule app!",
-        "description": "Cette application est le prototype d'un projet de plateforme de covoiturage en milieu rural. Elle sera implémentée en France pour commencer. Serveur en C# .Net et Front-End en react Native. Actuellement en cours!",
+        "specs": "MongoDB Microservices APIrest NodeJS ReactJS Redux GoogleAPI WebSocket Styled-Components",
+        "usecase": "Vous êtes un singe et vous cherchez à partager vos trajets quotidiens. Sur... des lianes!!! Trouvez, communiquer et naviguez avec eux dans une seule app!",
+        "description": "Autant dire que je me suis éclaté à créer cette maquette avec ces petits singes malicieux et animés. Cette application est le prototype d'un projet de plateforme de covoiturage en milieu rural, oui oui très serieux! D'ailleurs elle sera implémentée en France pour commencer avec vraisemblablement un Serveur en C# .Net et Front-End en react Native. Affaire à suivre!!",
         "lien": "https://youtu.be/HUfHxE6-6Vo",
-        "illus": "Liane"
+        "illus": "Liane",
+        "repo": "https://github.com/theogjini/liane-proto"
       },
       {
         "title": "Calendrier Entrepreunariat Laval",
         "date": 2020,
-        "techs": "Laravel ReactJS Redux",
-        "usecase": "bobby bobby bibo ",
-        "description": "Cette application est le prototype d'un projet de plateforme de covoiturage en milieu rural. Elle sera implémentée en France pour commencer. Serveur en C# .Net et Front-End en react Native. Actuellement en cours!",
-        "lien": "https://youtu.be/HUfHxE6-6Vo",
+        "specs": "Laravel ReactJS Redux",
+        "usecase": "Intégration de la maquette UI, développement de toutes les pages, création d'un répertoire intéractif de recherche d'informations spécialisées. Intégration des vidéos.",
+        "description": "Mon premier contrat avec Caligram! Explorer le code de caligram-react était difficile, recopier à la lettre toutes les subtilités de la maquette avec Css et Sass était érintant. Répondre aux demandes clients de dernière minute était un challenge certain! Mais quel plaisr au travers de tout ça!",
+        "lien": "http://entrepreneuriatlaval.caligram.com/",
         "illus": "Entrepreunariat"
       },
       {
         "title": "Le moulin de Cénaret",
         "date": 2020,
-        "techs": "MongoDB NodeJS ReactJS Redux",
-        "usecase": "Vous êtes un singe et vous cherchez à partager cvos trajets quotidiens. Sur... des lianes!!! Trouvez, communiquer et naviguez avec eux dans une seule app!",
-        "description": "Cette application est le prototype d'un projet de plateforme de covoiturage en milieu rural. Elle sera implémentée en France pour commencer. Serveur en C# .Net et Front-End en react Native. Actuellement en cours!",
-        "lien": "https://youtu.be/HUfHxE6-6Vo",
+        "specs": "TypeScript Docker MongoDB APIrest Microservices NodeJS Express NextJS ReactJS Redux Stripe Supertest Jest",
+        "usecase": "Une e-boutique pour cet exceptionnel lieu qu'est le Moulin de Cénaret en Lozère. À paraître très bientôt.",
+        "description": "Qu'est-ce qu'un bon framework JS? React. Qu'est-ce qu'un bon framework React? Next! SEO proof! CI proof avec Docker. Au fait, Typescript c'est top, je vous l'avais dit?",
+        "lien": "https://www.lemoulindecenaret.com/",
         "illus": "Moulin"
       },
       {
         "title": "Guithub",
         "date": 2020,
-        "techs": "MongoDB NodeJS ReactJS Redux",
-        "usecase": "Vous êtes un singe et vous cherchez à partager cvos trajets quotidiens. Sur... des lianes!!! Trouvez, communiquer et naviguez avec eux dans une seule app!",
-        "description": "Cette application est le prototype d'un projet de plateforme de covoiturage en milieu rural. Elle sera implémentée en France pour commencer. Serveur en C# .Net et Front-End en react Native. Actuellement en cours!",
-        "lien": "https://youtu.be/HUfHxE6-6Vo",
-        "illus": "Guithub"
+        "specs": "MongoDB APIrest NodeJS ReactJS Redux",
+        "usecase": "Vous adorez les belles guitares? Les guitares chères? Achetez et vendez-en à travers ce e-commerce spécialisé!",
+        "description": "Créer un compte, vendez et acheter des items, modifez-les à tout moment à travers votre profil! Comment ça j'ai fait ce site spécialement pour moi... Non mais... Bien trop cher pour moi!",
+        "lien": "https://www.youtube.com/watch?v=pbFqqD095EE",
+        "illus": "Guithub",
+        "repo": "https://github.com/theogjini/marketplace"
+      },
+      {
+        "title": "Dave's Outrun",
+        "date": 2019,
+        "specs": "OOP NodeJS Javascript ES6",
+        "usecase": "Vous tentez d'échapper aux assaults du puissant Goliath à bord de k2000! Récoltez tous les souvenirs du Héro Michael Knight",
+        "description": "Collectez les vignettes, protégez vous, déplacez vous dans cette course infernale pour obtenir un prix exceptionnel. Programmation orientée objet. Quand un apprenti programmeur fan de Night Rider (bon quand j'étais petit hein... plus maintenant) rencontre les classes JS. J'ai même monté tous les sons originaux dedans!",
+        "lien": "https://www.youtube.com/watch?v=bqAGnD97irU",
+        "illus": "Dave"
       }
     ]
   },
@@ -55,34 +65,52 @@
       {
         "title": "Liane",
         "date": 2020,
-        "techs": "MongoDB NodeJS ReactJS Redux",
-        "description": "This application is the prototype of a carpooling platform specialized in rural environment. It will be implemented in France next fall. V0 currently in processing with C# .Net backend and React Native.",
+        "specs": "MongoDB Microservices APIrest NodeJS ReactJS Redux GoogleAPI WebSocket Styled-Components",
+        "usecase": "You are a poor little monkey travelling alone in the jungle every single day... Find mates, chat with them and navigate through this unique carpool app!",
+        "description": "I have to say that making this was hilarious. I had so much pleasure animating and make a special place to those little scalawag monkeys. This app is the prototype of a real carpooling platform that is destinate to rural environment (yes, it's true!). By the way it will be implemented in France, with a nasty C# backend, and a pawerful React-Native Front-End... Stay tuned!!",
         "lien": "https://youtu.be/HUfHxE6-6Vo",
-        "illus": "public/images/"
+        "illus": "Liane",
+        "responsive": true
       },
       {
         "title": "Calendrier Entrepreunariat Laval",
         "date": 2020,
-        "techs": "MongoDB NodeJS ReactJS Redux",
-        "description": "This application is the prototype of a carpooling platform specialized in rural environment. It will be implemented in France next fall. V0 currently in processing with C# .Net backend and React Native.",
-        "lien": "https://youtu.be/HUfHxE6-6Vo",
-        "illus": "Entrepreunariat"
+        "specs": "Laravel ReactJS Redux Sass",
+        "usecase": "Integration of the UI mockup. Development of all the different pages.",
+        "description": "My first gig with Caligram! Exploring caligram-react code was hard, digging CSS and Sass to match designer's treats was sweating, answering last minute client's request challenging. But, honestly... What a fun!!",
+        "lien": "http://entrepreneuriatlaval.caligram.com/",
+        "illus": "Entrepreunariat",
+        "responsive": true
       },
       {
         "title": "Le moulin de Cénaret",
         "date": 2020,
-        "techs": "MongoDB NodeJS ReactJS Redux",
-        "description": "This application is the prototype of a carpooling platform specialized in rural environment. It will be implemented in France next fall. V0 currently in processing with C# .Net backend and React Native.",
-        "lien": "https://youtu.be/HUfHxE6-6Vo",
-        "illus": "Moulin"
+        "specs": "TypeScript Docker MongoDB APIrest Microservices NodeJS Express NextJS ReactJS Redux Stripe Supertest Jest",
+        "usecase": "A marketplace for this unique boutique in Lozère (France). Work in progress",
+        "description": "Do you know what a good JS framework is? React! Do you know what a good React framework is? Next! SEO proof. CI proof with Docker! And TypeScript is just awesome, did I mentionned this?",
+        "lien": "https://www.lemoulindecenaret.com/",
+        "illus": "Moulin",
+        "responsive": true
       },
       {
         "title": "Guithub",
         "date": 2020,
-        "techs": "MongoDB NodeJS ReactJS Redux",
-        "description": "This application is the prototype of a carpooling platform specialized in rural environment. It will be implemented in France next fall. V0 currently in processing with C# .Net backend and React Native.",
-        "lien": "https://youtu.be/HUfHxE6-6Vo",
-        "illus": "Guithub"
+        "specs": "MongoDB APIrest NodeJS ReactJS Redux",
+        "usecase": "Do you like guitars? Expensive ones? This is the place for you!",
+        "description": "Create an account, buy and sell items. You can modify your ad at any time! No... I didn'd make this website specially for me... Come on, this is way too expensive! Oh and by the way the music in the video is made by me!",
+        "lien": "https://www.youtube.com/watch?v=pbFqqD095EE",
+        "illus": "Guithub",
+        "repo": "https://github.com/theogjini/marketplace",
+        "responsive": true
+      },
+      {
+        "title": "Dave's Outrun",
+        "date": 2019,
+        "specs": "OOP NodeJS Javascript ES6",
+        "usecase": "You are trying to escape the terrible Goliath, riding K200. Catch all the memories of Michael Knight Hero!",
+        "description": "Collect all the vignettes, protect yourself, and try to win the incredible prize if you can finish this hellish race... Object Oriented Programming. When an apprentice developer Night Rider's fan (when I a was a kid ok?... Not anymore!) discover JavaScript classes. I even edited all the sounds effects and musics in it!",
+        "lien": "https://www.youtube.com/watch?v=bqAGnD97irU",
+        "illus": "Dave"
       }
     ]
   }

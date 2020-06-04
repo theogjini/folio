@@ -28,7 +28,7 @@ export default function Navbar(props) {
     const random = Math.floor(Math.random() * values.length);
     setValue(values[random]);
   };
-  useInterval(shadowValue, 1500);
+  useInterval(shadowValue, 1000);
 
   const menu = useSelector((state) => {
     return state.content[locale].general.menu;
