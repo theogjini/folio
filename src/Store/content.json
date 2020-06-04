@@ -12,8 +12,8 @@
       "menu": ["Projets", "Moi"]
     },
     "home": {
-      "title": "Bonjour! Je suis Théo Gjini",
-      "presentation": "Je suis un développeur web junior basé à Montréal. Je viens de terminer le Bootcamp de Concordia en développement web FullStack. Freelance depuis mon diplôme (Caligram,  Moulin du Cénaret), je cherche aujourd'hui à partager ma passion dans une équipe!"
+      "title": "Bienvenue! Je suis Théo,",
+      "presentation": "Développeur Web junior basé à Montréal. Fraîchement diplômé du Bootcamp de l'Université Concordia en développement web FullStack. Freelance depuis mon diplôme (Caligram,  Moulin du Cénaret), je cherche aujourd'hui à partager ma passion dans une équipe!"
     },
     "about": {
       "work": "Actuellement employé chez D-BOX Technologies depuis 4 ans. Pour faire simple: je fais vibrer les chaises des spectateurs dans les cinémas. Exprimer sa créativité mène toujours quelque part!",
@@ -82,7 +82,7 @@
       "menu": ["Projects", "Me"]
     },
     "home": {
-      "title": "Hi! I am Theo Gjini",
+      "title": "Hi! I am Theo,",
       "presentation": "I am a Montreal based junior Web Developer. I just finished Full-Stack Concordia Bootcamp. Freelancer since I graduated (Caligram,  Moulin du Cénaret), I am looking for a dev team to share my passion!"
     },
     "about": {

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import {
   Wrapper,
   Title,
@@ -20,9 +20,7 @@ export default function Navbar(props) {
   const isDarkMode = useSelector((state) => state.UI.darkMode);
   const history = useHistory();
 
-  const initialPath = history.location.pathname.split("/")[2];
-
-  const [path, setPath] = useState(initialPath);
+  const [path, setPath] = useState();
   const [value, setValue] = useState();
   const shadowValue = () => {
     const values = [15, 4, 25];
@@ -30,6 +28,11 @@ export default function Navbar(props) {
     setValue(values[random]);
   };
   useInterval(shadowValue, 1000);
+
+  useEffect(() => {
+    const initialPath = window.location.href.split("/").pop();
+    setPath(initialPath);
+  }, []);
 
   const menu = useSelector((state) => {
     return state.content[locale].general.menu;
