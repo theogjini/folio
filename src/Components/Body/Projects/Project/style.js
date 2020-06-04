@@ -12,7 +12,6 @@ const Wrapper = styled.div`
 const Plus = styled.div`
   position: relative;
   display: inline-block;
-  margin: 0 50px 50px 0;
   padding: ${(props) => (props.open === true ? "10px 18px 10px 18px" : "10px")};
   font-size: 1rem;
   cursor: pointer;
@@ -21,6 +20,7 @@ const Plus = styled.div`
     props.darkMode === true ? colors.green : darkColors.deepBlue};
   opacity: ${(props) => (props.open === true ? "1" : "0.6")};
   @media screen and (min-width: 900px) {
+    margin: 0 50px 50px 0;
     font-size: 2rem;
 
     text-align: ${(props) => (props.even === true ? "left" : "right")};

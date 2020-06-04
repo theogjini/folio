@@ -21,6 +21,7 @@ export default function App() {
             render={() => <Projects />}
           />
           <Route exact={true} path="/folio/me" render={() => <Me />} />
+
           <Footer />
         </Narrow>
       </Wrapper>
