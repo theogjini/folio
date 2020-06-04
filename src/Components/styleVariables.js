@@ -6,7 +6,7 @@ const colors = {
   cream: "#fffffc",
   lightCream: "#fffffc",
   lemon: "#98ce00",
-  yellow: "#FFBA08",
+  yellow: "#ff691a",
   cherry: "#3e49ff",
 };
 

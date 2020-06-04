@@ -32,7 +32,7 @@ export default function Navbar(props) {
   useEffect(() => {
     const initialPath = window.location.href.split("/").pop();
     setPath(initialPath);
-  }, []);
+  }, [path]);
 
   const menu = useSelector((state) => {
     return state.content[locale].general.menu;
