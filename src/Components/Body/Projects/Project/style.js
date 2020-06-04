@@ -19,6 +19,8 @@ const Plus = styled.div`
   color: ${(props) =>
     props.darkMode === true ? colors.green : darkColors.deepBlue};
   opacity: ${(props) => (props.open === true ? "1" : "0.6")};
+  margin: 15px;
+
   @media screen and (min-width: 900px) {
     margin: 0 50px 50px 0;
     font-size: 2rem;

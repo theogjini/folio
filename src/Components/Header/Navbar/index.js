@@ -7,6 +7,7 @@ import {
   MenuElement,
   RightSide,
   Button,
+  ResponsiveTitle,
 } from "./style.js";
 import { useDispatch, useSelector } from "react-redux";
 import { useHistory } from "react-router-dom";
@@ -70,6 +71,13 @@ export default function Navbar(props) {
   return (
     <Wrapper darkMode={isDarkMode}>
       <LeftSide>
+        <ResponsiveTitle
+          darkMode={isDarkMode}
+          onClick={handleGoHome}
+          value={value}
+        >
+          TG.
+        </ResponsiveTitle>
         <Title darkMode={isDarkMode} onClick={handleGoHome} value={value}>
           THEO GJINI
         </Title>

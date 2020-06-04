@@ -2,13 +2,17 @@ import styled from "styled-components";
 import { colors, darkColors } from "../../styleVariables.js";
 
 const Wrapper = styled.div`
-  padding: 20px 0 20px 0;
+  padding: 20px 20px 20px 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  @media screen and (min-width: 600px) {
+    padding: 20px 0 20px 0;
+  }
 `;
 
 const Title = styled.h3`
+  display: block;
   margin: 0;
   color: ${(props) => (props.darkMode ? colors.lemon : darkColors.deepBlue)};
   transition: 1.5s ease-in-out;
@@ -18,6 +22,9 @@ const Title = styled.h3`
     props.darkMode === true
       ? `0px 0px ${props.value}px rgba(152, 206, 0, 1)`
       : "none"};
+  @media screen and (max-width: 600px) {
+    display: none;
+  }
 `;
 
 const Menu = styled.div`
@@ -88,4 +95,20 @@ const RightSide = styled.div`
   align-items: center;
 `;
 
-export { Wrapper, Title, Menu, LeftSide, MenuElement, RightSide, Button };
+const ResponsiveTitle = styled.div`
+  display: none;
+  @media screen and (max-width: 600px) {
+    display: block;
+  }
+`;
+
+export {
+  Wrapper,
+  Title,
+  Menu,
+  LeftSide,
+  MenuElement,
+  RightSide,
+  Button,
+  ResponsiveTitle,
+};

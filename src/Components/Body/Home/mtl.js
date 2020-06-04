@@ -3,7 +3,7 @@ import React from "react";
 export default function Mtl() {
   return (
     <svg
-      width="579"
+      width="300"
       height="310"
       viewBox="0 0 579 310"
       fill="none"
