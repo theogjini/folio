@@ -1,15 +1,28 @@
 {
+  "footer": {
+    "sig": "©Theo Gjini 2020",
+    "github": "https://github.com/theogjini/",
+    "thisRepo": "https://github.com/theogjini/folio",
+    "linkedin": "https://linkedin.com/in/theo-gjini",
+    "gitlab": "https://gitlab.com/theogjini",
+    "mail": "mailto: theogjini@gmail.com"
+  },
   "fr": {
     "general": {
-      "title": "Bonjour Monde!",
       "menu": ["Projets", "Moi"]
     },
-    "footer": {
-      "sig": "©Theo Gjini 2020",
-      "repo": "https://github.com/theogjini/",
-      "thisRepo": "https://github.com/theogjini/folio"
+    "home": {
+      "title": "Bonjour! Je suis Théo Gjini",
+      "presentation": "Je suis un développeur web junior basé à Montréal. Je viens de terminer le Bootcamp de Concordia en développement web FullStack. Freelance depuis mon diplôme (Caligram,  Moulin du Cénaret), je cherche aujourd'hui à partager ma passion dans une équipe!"
     },
-    "about": {},
+    "about": {
+      "work": "Actuellement employé chez D-BOX Technologies depuis 4 ans. Pour faire simple: je fais vibrer les chaises des spectateurs dans les cinémas. Exprimer sa créativité mène toujours quelque part!",
+      "calig": "Caligram m'a offert mes premières missions Front-End, merci à eux de me transmettre un précieux savoir!",
+      "freetimeTitle": "Ce que je fais de mes temps libres",
+      "subtitle": "Travailler c'est bien tant qu'on ne fait pas que ça :)",
+      "music": "Membre du groupe ''La verdine'' je suis guitariste depuis plus de 15 ans. On se voit à l'Escalier, au Dièse-Onze, ou au parc Laurier pour un jam!",
+      "fish": "Amoureux de nature. Quand je ne suis pas en rando dans les Adirondacks, je parcours les rivières du québec ma canne à moucher à la main... "
+    },
     "projects": [
       {
         "title": "Liane",
@@ -60,17 +73,26 @@
         "usecase": "Vous tentez d'échapper aux assaults du puissant Goliath à bord de k2000! Récoltez tous les plus beaux souvenirs du Héros Michael Knight.",
         "description": "Collectez les vignettes, protégez vous, déplacez vous dans cette course infernale pour obtenir un prix exceptionnel. Programmation orientée objet. Quand un apprenti programmeur fan de Night Rider (bon quand j'étais petit hein... plus maintenant) rencontre les classes JS. J'ai même monté tous les sons originaux dedans!",
         "link": "https://www.youtube.com/watch?v=bqAGnD97irU",
-        "illus": "Dave",
-        "responsive": true
+        "illus": "Dave"
       }
     ]
   },
   "en": {
     "general": {
-      "title": "Hello World!",
       "menu": ["Projects", "Me"]
     },
-    "about": {},
+    "home": {
+      "title": "Hi! I am Theo Gjini",
+      "presentation": "I am a Montreal based junior Web Developer. I just finished Full-Stack Concordia Bootcamp. Freelancer since I graduated (Caligram,  Moulin du Cénaret), I am looking for a dev team to share my passion!"
+    },
+    "about": {
+      "work": "Work at D-Box technologies for 4 years now. To make it easy: I mak chair vibrate and moving for movies audience. Yeah, express creativity always leads you somewhere!",
+      "calig": "Caligram is offering me my first Front-End missions,I thank them so much to teach me so intersting knowledge !",
+      "freetimeTitle": "What do I do on my spare time?",
+      "subtitle": "Working is good as long as we do something else also :)",
+      "music": "Member af La Verdine band, I play guitar for more than 15 years now. Let's jam at l'Escalier, Dièse-Onze, or in Laurier park!",
+      "fish": "Nature lover. When I am not hiking the Adirondacks mountains, I follow rivers with my fly fishing rod..."
+    },
     "projects": [
       {
         "title": "Liane",

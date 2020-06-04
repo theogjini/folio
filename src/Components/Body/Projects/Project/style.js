@@ -14,16 +14,24 @@ const Plus = styled.div`
   display: inline-block;
   margin: 0 50px 50px 0;
   padding: ${(props) => (props.open === true ? "10px 18px 10px 18px" : "10px")};
+  font-size: 1rem;
   cursor: pointer;
-  font-size: 2rem;
   transition: 0.4s ease-in-out;
   color: ${(props) =>
     props.darkMode === true ? colors.green : darkColors.deepBlue};
   opacity: ${(props) => (props.open === true ? "1" : "0.6")};
+  @media screen and (min-width: 900px) {
+    font-size: 2rem;
+
+    text-align: ${(props) => (props.even === true ? "left" : "right")};
+
+    :hover {
+      padding-left: 18px;
+      padding-right: 18px;
+    }
+  }
 
   :hover {
-    padding-left: 18px;
-    padding-right: 18px;
     opacity: 1;
   }
 
@@ -70,13 +78,13 @@ const Plus = styled.div`
 `;
 
 const Details = styled.div`
-  position: relative;
   overflow: hidden;
+  position: relative;
   transition: 0.4s ease-in-out;
-  height: ${(props) => (props.open === true ? "500px" : "0")};
+  height: ${(props) => (props.open === true ? "auto" : "0")};
   margin-bottom: 25px;
   @media screen and (min-width: 900px) {
-    height: ${(props) => (props.open === true ? "500px" : "0")};
+    height: ${(props) => (props.open === true ? "420px" : "0")};
   }
 
   p {

@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { colors } from "../../styleVariables.js";
 
 const Wrapper = styled.div`
-  max-height: 80vh;
+  max-height: 72vh;
   overflow: auto;
   padding: 15px;
 

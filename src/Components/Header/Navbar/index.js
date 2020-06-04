@@ -20,7 +20,6 @@ export default function Navbar(props) {
   const history = useHistory();
 
   const initialPath = history.location.pathname.split("/")[2];
-  console.log("initialPath", initialPath);
 
   const [path, setPath] = useState(initialPath);
   const [value, setValue] = useState();
