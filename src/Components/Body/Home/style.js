@@ -20,6 +20,12 @@ const Wrapper = styled.div`
     border-radius: 10px;
     background: ${colors.green};
   }
+  p {
+    margin: 50px;
+    font-size: 1.115rem;
+    font-weight: 400;
+  }
+  
 `;
 
 const Nav = styled.div`

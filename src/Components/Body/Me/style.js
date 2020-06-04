@@ -48,8 +48,25 @@ const Details = styled.div`
   align-items: center;
   justify-content: center;
   img {
+    border-radius: 2px;
     width: 300px;
     max-height: 300px;
+    :hover {
+      opacity: 0.6;
+    }
+  }
+
+  a {
+    width: 300px;
+
+    :hover {
+      opacity: 0.6;
+      svg {
+        path {
+          fill: ${colors.yellow};
+        }
+      }
+    }
   }
 
   p {

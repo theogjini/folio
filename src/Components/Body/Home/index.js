@@ -20,7 +20,7 @@ export default function Home(props) {
 
   return (
     <Wrapper>
-      <h2>{title}</h2>
+      <h1>{title}</h1>
       <p>{presentation}</p>
       <Link to="/folio/projects">
         <Nav>
