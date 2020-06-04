@@ -4,7 +4,7 @@ import { Wrapper, Activity, Details } from "./style.js";
 import Fisher from "./fisher.js";
 import Guitarist from "./guitarist.js";
 import DBX from "./images/dbx.png";
-import Caligram from "./images/calig.png";
+import Calig from "./calig.js";
 
 export default function Me(props) {
   const locale = useSelector((state) => state.UI.locale);
@@ -29,7 +29,7 @@ export default function Me(props) {
         <Details even={false}>
           <p>{infos.calig}</p>
           <a href={caligramLink} target="_blank" rel="noreferrer noopener">
-            <img src={Caligram} alt="dbox" />
+            <Calig />
           </a>
         </Details>
       </Activity>
