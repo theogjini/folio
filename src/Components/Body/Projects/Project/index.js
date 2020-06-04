@@ -1,4 +1,5 @@
 import React from "react";
+import { useSelector } from "react-redux";
 import {
   Wrapper,
   Plus,
@@ -7,7 +8,7 @@ import {
   TableSpec,
   Section,
 } from "./style.js";
-import { useSelector } from "react-redux";
+import Pictograms from "./Pictograms";
 import Liane from "./images/Liane.png";
 import Entrepreunariat from "./images/lvl.png";
 import Moulin from "./images/lmdc.png";
@@ -28,12 +29,16 @@ export default function Project(props) {
     illus,
     usecase,
     specs,
-    // lien,
-    // repo,
-    // responsive,
+    link,
+    repo,
+    responsive,
   } = props;
 
   const even = idx % 2 === 0;
+
+  const isVideoLink = link.includes("youtu");
+
+  const pictoProps = { repo, link, responsive, isVideoLink, even };
 
   const images = { Liane, Entrepreunariat, Moulin, Guithub, Dave };
 
@@ -62,7 +67,7 @@ export default function Project(props) {
                   <h3>Technologies</h3>
                   <ul>
                     {specs.split(" ").map((spec) => (
-                      <li>
+                      <li key={spec}>
                         <img src={Arrow} alt="arrow" />
                         {spec}
                       </li>
@@ -74,6 +79,7 @@ export default function Project(props) {
           </article>
         </Section>
         <p>{description}</p>
+        <Pictograms {...pictoProps} />
       </Details>
     </Wrapper>
   );
