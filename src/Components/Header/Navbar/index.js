@@ -19,7 +19,8 @@ export default function Navbar(props) {
   const isDarkMode = useSelector((state) => state.UI.darkMode);
   const history = useHistory();
 
-  const initialPath = history.location.pathname.split("/")[1];
+  const initialPath = history.location.pathname.split("/")[2];
+  console.log("initialPath", initialPath);
 
   const [path, setPath] = useState(initialPath);
   const [value, setValue] = useState();
@@ -52,18 +53,18 @@ export default function Navbar(props) {
   function handleNavigate(event, item) {
     event.preventDefault();
     if (item === "Moi" || item === "Me") {
-      history.push("/me");
+      history.push("/folio/me");
       setPath("me");
     }
     if (item === "Projects" || item === "Projets") {
-      history.push("/projects");
+      history.push("/folio/projects");
       setPath("projects");
     }
   }
 
   function handleGoHome(event) {
     event.preventDefault();
-    history.push("/");
+    history.push("/folio");
     setPath("home");
   }
 

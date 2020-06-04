@@ -14,9 +14,13 @@ export default function App() {
       <Wrapper darkMode={isDarkMode}>
         <Narrow>
           <Header />
-          <Route exact={true} path="/" render={() => <Home />} />
-          <Route exact={true} path="/projects" render={() => <Projects />} />
-          <Route exact={true} path="/me" render={() => <Me />} />
+          <Route exact={true} path="/folio" render={() => <Home />} />
+          <Route
+            exact={true}
+            path="/folio/projects"
+            render={() => <Projects />}
+          />
+          <Route exact={true} path="/folio/me" render={() => <Me />} />
           <Footer />
         </Narrow>
       </Wrapper>
