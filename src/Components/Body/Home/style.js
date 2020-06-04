@@ -52,6 +52,7 @@ const SvgWrapper = styled.div`
     width: 100%;
     position: relative;
     margin: auto;
+    opacity: 0.5;
   }
   @media screen and (min-width: 1180px) {
     svg {
