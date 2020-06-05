@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import {
   Wrapper,
   Title,
@@ -15,12 +15,14 @@ import Toggle from "./Toggle";
 import useInterval from "use-interval";
 
 export default function Navbar(props) {
+  const history = useHistory();
   const dispatch = useDispatch();
   const locale = useSelector((state) => state.UI.locale);
   const isDarkMode = useSelector((state) => state.UI.darkMode);
-  const history = useHistory();
+  const path = useSelector((state) => state.UI.path);
 
-  const [path, setPath] = useState();
+  console.log("path", path);
+
   const [value, setValue] = useState();
   const shadowValue = () => {
     const values = [15, 4, 25];
@@ -28,11 +30,6 @@ export default function Navbar(props) {
     setValue(values[random]);
   };
   useInterval(shadowValue, 1000);
-
-  useEffect(() => {
-    const initialPath = window.location.href.split("/").pop();
-    setPath(initialPath);
-  }, [path]);
 
   const menu = useSelector((state) => {
     return state.content[locale].general.menu;
@@ -57,18 +54,18 @@ export default function Navbar(props) {
     event.preventDefault();
     if (item === "Moi" || item === "Me") {
       history.push("/folio/me");
-      setPath("me");
+      dispatch({ type: "CHANGE_PATH", path: "/folio/me" });
     }
     if (item === "Projects" || item === "Projets") {
       history.push("/folio/projects");
-      setPath("projects");
+      dispatch({ type: "CHANGE_PATH", path: "/folio/projects" });
     }
   }
 
   function handleGoHome(event) {
     event.preventDefault();
     history.push("/folio");
-    setPath("home");
+    dispatch({ type: "CHANGE_PATH", path: "/folio/" });
   }
 
   return (
@@ -87,7 +84,7 @@ export default function Navbar(props) {
         <Menu>
           {menu.map((item) => {
             const matchingRoute =
-              item === "Moi" || item === "Me" ? "me" : "projects";
+              item === "Moi" || item === "Me" ? "/folio/me" : "/folio/projects";
             const active = matchingRoute === path;
             return (
               <MenuElement

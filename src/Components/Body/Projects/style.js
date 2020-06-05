@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { colors } from "../../styleVariables.js";
 
 const Wrapper = styled.div`
-  height: 70vh;
+  height: 65vh;
   overflow: auto;
   padding: 15px;
 
@@ -19,6 +19,10 @@ const Wrapper = styled.div`
   ::-webkit-scrollbar-thumb {
     border-radius: 10px;
     background: ${colors.green};
+  }
+
+  @media screen and (min-width: 768px) {
+    height: 78vh;
   }
 `;
 

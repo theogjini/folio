@@ -1,6 +1,7 @@
 const initialState = {
   locale: "fr",
   darkMode: false,
+  path: "/",
 };
 
 export default function uiReducer(state, action) {
@@ -23,6 +24,11 @@ export default function uiReducer(state, action) {
 
     case "TOGGLE_THEME": {
       state.darkMode = !state.darkMode;
+      break;
+    }
+
+    case "CHANGE_PATH": {
+      state.path = action.path;
       break;
     }
 

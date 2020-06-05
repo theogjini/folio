@@ -25,7 +25,6 @@ const Wrapper = styled.div`
     font-size: 1.115rem;
     font-weight: 400;
   }
-  
 `;
 
 const Nav = styled.div`
@@ -71,4 +70,9 @@ const SvgWrapper = styled.div`
   }
 `;
 
-export { Wrapper, Nav, SvgWrapper };
+const ProjectsLink = styled.div`
+  display: inline-block;
+  cursor: pointer;
+`;
+
+export { Wrapper, Nav, SvgWrapper, ProjectsLink };
