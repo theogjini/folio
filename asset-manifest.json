@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.js": "/folio/static/js/main.b552a761.chunk.js",
-    "main.js.map": "/folio/static/js/main.b552a761.chunk.js.map",
+    "main.js": "/folio/static/js/main.d024213f.chunk.js",
+    "main.js.map": "/folio/static/js/main.d024213f.chunk.js.map",
     "runtime-main.js": "/folio/static/js/runtime-main.51a8e260.js",
     "runtime-main.js.map": "/folio/static/js/runtime-main.51a8e260.js.map",
     "static/js/2.adf4ad74.chunk.js": "/folio/static/js/2.adf4ad74.chunk.js",
     "static/js/2.adf4ad74.chunk.js.map": "/folio/static/js/2.adf4ad74.chunk.js.map",
     "index.html": "/folio/index.html",
-    "precache-manifest.9b24e1fe616ddca7cc504dcb32668d62.js": "/folio/precache-manifest.9b24e1fe616ddca7cc504dcb32668d62.js",
+    "precache-manifest.ec792fe78b69bf17440b07f4af83f558.js": "/folio/precache-manifest.ec792fe78b69bf17440b07f4af83f558.js",
     "service-worker.js": "/folio/service-worker.js",
     "static/js/2.adf4ad74.chunk.js.LICENSE.txt": "/folio/static/js/2.adf4ad74.chunk.js.LICENSE.txt",
     "static/media/Liane.png": "/folio/static/media/Liane.90ec7b2e.png",
@@ -21,6 +21,6 @@
   "entrypoints": [
     "static/js/runtime-main.51a8e260.js",
     "static/js/2.adf4ad74.chunk.js",
-    "static/js/main.b552a761.chunk.js"
+    "static/js/main.d024213f.chunk.js"
   ]
 }
