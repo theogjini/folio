@@ -12,11 +12,11 @@
       "menu": ["Projets", "Moi"]
     },
     "home": {
-      "title": "Bienvenue! Je suis Théo,",
-      "presentation": "Développeur Web Junior basé à Montréal. Fraîchement diplômé du Bootcamp de l'Université Concordia en développement web FullStack. Freelance depuis mon diplôme (Caligram,  Moulin du Cénaret), je cherche aujourd'hui à partager ma passion dans une équipe!"
+      "title": "Bienvenue! Je suis Théo",
+      "presentation": "Développeur Web Junior basé à Montréal. Diplômé du Bootcamp de l'Université Concordia en développement web FullStack. Freelance, je suis toujours prêt à partager cette passion dans une équipe!"
     },
     "about": {
-      "work": "Actuellement employé chez D-BOX Technologies depuis 4 ans. Pour faire simple: je fais vibrer les chaises des spectateurs dans les cinémas. Exprimer sa créativité mène toujours quelque part!",
+      "work": "Actuellement employé chez D-BOX Technologies depuis 4 ans. Coordonnateur et Concepteur Haptique. Haptique c'est quoi? Pour faire simple: je fais vibrer et bouger les chaises des spectateurs dans les cinémas (pas manuellement bien sur, mais avec un procédé technique bien précis proche de la Conception Sonore...). Exprimer sa créativité mène toujours quelque part!",
       "calig": "Caligram m'a offert mes premières missions Front-End, merci à eux de me transmettre un précieux savoir, et de me faire confiance pour les aider!",
       "freetimeTitle": "Ce que je fais de mes temps libres",
       "subtitle": "Travailler c'est bien tant qu'on ne fait pas que ça :)",
@@ -82,15 +82,15 @@
       "menu": ["Projects", "Me"]
     },
     "home": {
-      "title": "Hi! I am Theo,",
-      "presentation": "A Montreal based Junior Web Developer. I just finished Full-Stack Concordia Bootcamp. Freelancer since I graduated (Caligram,  Moulin du Cénaret), I am looking for a dev team to share my passion!"
+      "title": "Hi! I am Theo",
+      "presentation": "A Montreal based Junior Web Developer. Concordia University graduate in FullStack web development. Freelancer, I am always ready to share my passion with a team!"
     },
     "about": {
-      "work": "Work at D-Box technologies for 4 years now. To make it easy: I mak chair vibrate and moving for movies audience. Yeah, express creativity always leads you somewhere!",
+      "work": "Work at D-Box technologies for 4 years now. Coordinator and Haptic Designer. What? Haptic?? To keep it simple: I make chair vibrating and moving for movies audience (not manually of course... But with a technical process close to Sound Design). Yeah, express creativity always leads you somewhere!",
       "calig": "Caligram is offering me my first Front-End missions, I thank them so much to teach me such important knowledge!",
       "freetimeTitle": "What do I do on my spare time?",
       "subtitle": "Working is good as long as we do something else also :)",
-      "music": "Member af La Verdine band, I play guitar for more than 15 years now. Let's jam at l'Escalier, Dièse-Onze, or in Laurier park!",
+      "music": "Member af ''La Verdine'' band, I play guitar for more than 15 years now. Let's jam at l'Escalier, Dièse-Onze, or in Laurier park!",
       "fish": "Nature lover. When I am not hiking the Adirondacks mountains, I follow rivers with my fly fishing rod..."
     },
     "projects": [
