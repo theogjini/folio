@@ -31,15 +31,23 @@ const Footbar = styled.div`
 
 const Sig = styled.div`
   font-size: 0.885rem;
+  color: ${(props) => (props.darkMode ? colors.yellow : colors.darkBlue)};
+  transition: 1.5s ease-in-out;
   a {
-    color: ${colors.darkBlue};
+    color: ${(props) => (props.darkMode ? colors.yellow : colors.darkBlue)};
     text-decoration: none;
     margin-left: 15px;
+    transition: 1.5s ease-in-out;
   }
 `;
 
 const Liens = styled.div`
   max-width: 100px;
+  svg {
+    :hover {
+      opacity: 0.6;
+    }
+  }
   @media screen and (min-width: 1180px) {
     max-width: 500px;
   }

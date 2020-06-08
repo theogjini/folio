@@ -6,13 +6,14 @@ import { Github, Gitlab, Mail, Linkedin } from "./picto.js";
 export default function Footer(props) {
   const infos = useSelector((state) => state.content.footer);
   const locale = useSelector((state) => state.UI.locale);
+  const darkMode = useSelector((state) => state.UI.darkMode);
 
   const note = locale === "fr" ? "Code du site" : "See site code";
 
   return (
     <Wrapper>
       <Footbar>
-        <Sig>
+        <Sig darkMode={darkMode}>
           {infos.sig}{" "}
           <a href={infos.thisRepo} target="_blank" rel="noreferrer noopener">
             {note}
