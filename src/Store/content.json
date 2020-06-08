@@ -16,20 +16,20 @@
       "presentation": "Développeur Web Junior basé à Montréal. Diplômé du Bootcamp de l'Université Concordia en développement web FullStack. Freelance, je suis toujours prêt à partager cette passion dans une équipe!"
     },
     "about": {
-      "work": "Actuellement employé chez D-BOX Technologies depuis 4 ans. Coordonnateur et Concepteur Haptique. Haptique c'est quoi? Pour faire simple: je fais vibrer et bouger les chaises des spectateurs dans les cinémas (pas manuellement bien sur, mais avec un procédé technique bien précis proche de la Conception Sonore...). Exprimer sa créativité mène toujours quelque part!",
+      "work": "Actuellement employé chez D-BOX Technologies depuis 4 ans. Coordonnateur et Concepteur Haptique. Haptique c'est quoi? Pour faire simple: je crée des vibrations et des mouvements dans les chaises des spectateurs dans les cinémas (pas manuellement bien sur, mais avec un procédé technique bien précis proche de la Conception Sonore...). Exprimer sa créativité mène toujours quelque part!",
       "calig": "Caligram m'a offert mes premières missions Front-End, merci à eux de me transmettre un précieux savoir, et de me faire confiance pour les aider!",
       "freetimeTitle": "Ce que je fais de mes temps libres",
       "subtitle": "Travailler c'est bien tant qu'on ne fait pas que ça :)",
       "music": "Membre du groupe ''La verdine'' je suis guitariste depuis plus de 15 ans. On se voit à l'Escalier, au Dièse-Onze, ou au parc Laurier pour un jam!",
-      "fish": "Amoureux de nature. Quand je ne suis pas en rando dans les Adirondacks, je parcours les rivières du québec ma canne à moucher à la main... "
+      "fish": "Amoureux de nature. Quand je ne suis pas en rando dans les Adirondacks, je parcours les rivières du Québec ma canne à moucher à la main... "
     },
     "projects": [
       {
         "title": "Liane",
         "date": 2020,
         "specs": "MongoDB Microservices APIrest NodeJS ReactJS Redux GoogleAPI WebSocket Styled-Components",
-        "usecase": "Vous êtes un singe et vous cherchez à partager vos trajets quotidiens. Sur... des lianes!!! Trouvez, communiquer et naviguez avec eux dans une seule app!",
-        "description": "Autant dire que je me suis éclaté à créer cette maquette avec ces petits singes malicieux et animés. Cette application est le prototype d'un projet de plateforme de covoiturage en milieu rural, oui oui très serieux! D'ailleurs elle sera implémentée en France pour commencer avec vraisemblablement un Serveur en C# .Net et Front-End en react Native. Affaire à suivre!!",
+        "usecase": "Vous êtes un singe et vous cherchez à partager vos trajets quotidiens. Sur... des lianes!!! Cette application a pour but de mettre en lien les gens qui font le même trajet régulier tous les jours! Trouver des trajets, et organiser sa semaine, chatter avec ses covoitureurs, et naviguer directement depuis l'app!",
+        "description": "Autant dire que je me suis éclaté à créer cette maquette avec ces petits singes malicieux et animés. Cette application est le prototype d'un projet de plateforme de covoiturage en milieu rural, oui oui très serieux! D'ailleurs elle sera implémentée en France pour commencer avec vraisemblablement un Serveur en C# .Net et Front-End React Native. Affaire à suivre!!",
         "link": "https://youtu.be/HUfHxE6-6Vo",
         "illus": "Liane",
         "repo": "https://github.com/theogjini/liane-proto",
@@ -38,9 +38,9 @@
       {
         "title": "Calendrier Entrepreunariat Laval",
         "date": 2020,
-        "specs": "Laravel ReactJS Redux",
-        "usecase": "Intégration de la maquette UI, développement de toutes les pages, création d'un répertoire intéractif de recherche d'informations spécialisées. Intégration des vidéos.",
-        "description": "Mon premier contrat avec Caligram! Explorer le code de caligram-react était difficile, recopier à la lettre toutes les subtilités de la maquette avec Css et Sass était érintant. Répondre aux demandes clients de dernière minute était instructif! Mais quel plaisir au travers de tout ça! D'autres à venir en 2020!",
+        "specs": "Postgrès Laravel ReactJS Redux",
+        "usecase": "Intégration de la maquette UI, développement de toutes les pages, création d'un répertoire intéractif de recherche d'informations spécialisées. Intégration de vidéos.",
+        "description": "Mon premier contrat avec Caligram! Explorer le code de caligram-react était difficile, recopier à la lettre toutes les subtilités de la maquette avec Css et Sass m'a bien fait suinter. Répondre aux demandes clients de dernière minute était instructif! Mais quel plaisir au travers de tout ça! D'autres à venir en 2020!",
         "link": "http://entrepreneuriatlaval.caligram.com/",
         "illus": "Entrepreunariat",
         "responsive": true
@@ -59,7 +59,7 @@
         "title": "Guithub",
         "date": 2020,
         "specs": "MongoDB APIrest NodeJS ReactJS Redux",
-        "usecase": "Vous adorez les belles guitares? Les guitares chères? Achetez et vendez-en à travers ce e-commerce spécialisé!",
+        "usecase": "Vous adorez les belles guitares? Les guitares chères? Plateforme e-commerce ultra spécialisée!",
         "description": "Créer un compte, vendez et acheter des items, modifez-les à tout moment à travers votre profil! Comment ça j'ai fait ce site spécialement pour moi... Non mais... Bien trop cher pour moi! En passant, j'ai composé et interprété la musique de la vidéo!",
         "link": "https://www.youtube.com/watch?v=pbFqqD095EE",
         "illus": "Guithub",
@@ -86,12 +86,12 @@
       "presentation": "A Montreal based Junior Web Developer. Concordia University graduate in FullStack web development. Freelancer, I am always ready to share my passion with a team!"
     },
     "about": {
-      "work": "Work at D-Box technologies for 4 years now. Coordinator and Haptic Designer. What? Haptic?? To keep it simple: I make chair vibrating and moving for movies audience (not manually of course... But with a technical process close to Sound Design). Yeah, express creativity always leads you somewhere!",
-      "calig": "Caligram is offering me my first Front-End missions, I thank them so much to teach me such important knowledge!",
+      "work": "I work at D-Box technologies for 4 years now. Coordinator and Haptic Designer. What? Haptic?? To keep it simple: I make chair vibrating and moving for movies audience (not manually of course... But with a technical process similar to Sound Design). Yeah, express creativity always leads you somewhere!",
+      "calig": "Caligram is offering me my first Front-End missions, I thank them so much to teach me such important knowledge, and trust on me!",
       "freetimeTitle": "What do I do on my spare time?",
       "subtitle": "Working is good as long as we do something else also :)",
-      "music": "Member af ''La Verdine'' band, I play guitar for more than 15 years now. Let's jam at l'Escalier, Dièse-Onze, or in Laurier park!",
-      "fish": "Nature lover. When I am not hiking the Adirondacks mountains, I follow rivers with my fly fishing rod..."
+      "music": "Guitarist of the band ''La Verdine'', I play for more than 15 years now. Let's jam at l'Escalier, Dièse-Onze, or at Laurier's park sometime!",
+      "fish": "Nature lover. When I am not hiking the Adirondacks mountains, I follow Québec rivers with my fly fishing rod..."
     },
     "projects": [
       {
@@ -99,7 +99,7 @@
         "date": 2020,
         "specs": "MongoDB Microservices APIrest NodeJS ReactJS Redux GoogleAPI WebSocket Styled-Components",
         "usecase": "You are a poor little monkey travelling alone in the jungle every single day... Find mates, chat with them and navigate through this unique carpool app!",
-        "description": "I have to say that making this was hilarious. I had so much pleasure animating and make a special place to those little scalawag monkeys. This app is the prototype of a real carpooling platform that is destinate to rural environment (yes, it's true!). By the way it will be implemented in France, with a nasty C# backend, and a pawerful React-Native Front-End... Stay tuned!!",
+        "description": "I have to say that making this was hilarious. I had so much pleasure animating and make a special place to those little scalawag monkeys. This app is the prototype of a real carpooling platform that is destinate to rural environment (yes, it's true!). By the way it will be implemented in France, with a nasty C# backend, and a powerful React-Native Front-End... Stay tuned!!",
         "link": "https://youtu.be/HUfHxE6-6Vo",
         "repo": "https://github.com/theogjini/liane-proto",
         "illus": "Liane",
@@ -120,7 +120,7 @@
         "date": 2020,
         "specs": "TypeScript Docker MongoDB APIrest Microservices NodeJS Express NextJS ReactJS Redux Stripe Supertest Jest",
         "usecase": "A marketplace for this unique boutique in Lozère (France). Work in progress.",
-        "description": "Do you know what a good JS framework is? React! Do you know what a good React framework is? Next! SEO proof. CI proof with Docker! And TypeScript is just awesome, did I mentionned this?",
+        "description": "Do you know what a good JS framework is? React! Do you know what a good React framework is? Next! SEO proof. CI proof with Docker! Oh, and TypeScript is just awesome, did I mentionned this?",
         "link": "https://www.lemoulindecenaret.com/",
         "illus": "Moulin",
         "responsive": true
