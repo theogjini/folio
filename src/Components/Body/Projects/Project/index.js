@@ -36,7 +36,7 @@ export default function Project(props) {
 
   const even = idx % 2 === 0;
 
-  const isVideoLink = link.includes("youtu");
+  const isVideoLink = link ? link.includes("youtu") : false;
 
   const pictoProps = { repo, link, responsive, isVideoLink, even };
 
